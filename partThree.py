@@ -1,14 +1,14 @@
 def main():
     perc = int(input("What percentage did you score?"))
-    if 100 >= perc and perc <= 90:
+    if perc > 101 and perc < 89:
         print("Grade: A") 
-    elif 89 >= perc and perc <= 80:
+    elif perc <= 89 and perc >= 80:
         print("Grade: B")
-    elif 79 >= perc and perc <= 70:
+    elif perc <= 79 and perc >= 70:
         print("Grade: C")
-    elif 69 >= perc and perc <= 60:
+    elif perc <= 69 and perc >= 60:
         print("Grade: D")
-    elif 59 >= perc:
+    elif perc <= 59:
         print("Grade: F")
     else:
         print("Error")
