@@ -1,5 +1,5 @@
 def main():
-    age = input(int("How old are you?"))
+    age = int(input("How old are you?"))
     stud = input("Are you a student? Y/N")
     if age < 12 or age > 64:
         print("That will cost £5")
